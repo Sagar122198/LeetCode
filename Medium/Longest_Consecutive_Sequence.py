@@ -1,5 +1,8 @@
 class Solution(object):
     def longestConsecutive(self, nums):
+        # Brute force and Optimal soluiton does not give TC -> of o(n)
+
+        # Optimal Solution
         n = len(nums)
         my_set = set()
         for i in range(0,n):
