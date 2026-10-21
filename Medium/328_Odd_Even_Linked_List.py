@@ -1,10 +1,10 @@
 # Definition for singly-linked list.
-# class ListNode(object):
+# class ListNode:
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-class Solution(object):
-    def oddEvenList(self, head):
+class Solution:
+    def oddEvenList(self, head: ListNode | None) -> ListNode | None:
         if head is None or head.next is None:
             return head
         odd = head
